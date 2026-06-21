@@ -1,0 +1,41 @@
+{
+  "name": "thunder-sysinfo",
+  "version": "1.0.0",
+  "description": "Gather system information, environment variables, and perform CRUD on code files",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "thunder": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "info": "node index.js info",
+    "env": "node index.js env",
+    "files": "node index.js files",
+    "supabase": "node supabase-transfer.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "system-info",
+    "environment",
+    "file-crud",
+    "cli"
+  ],
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  },
+  "author": ""
+}
