@@ -18,7 +18,9 @@ The project demonstrates:
 
 ## Run on downloaded on terminal
 
-Run this on Terminal : node `file-agent.js`
+Run this on Terminal : 
+cd src 
+node `file-agent.js`
 
 ## **Web Dashboard Features**
 
